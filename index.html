@@ -17,7 +17,11 @@
 			<div class="product-preview">
 				<div class="product-preview-image">
 					<img
-						src="./images/image-product-desktop.jpg"
+						srcset="
+							./images/image-product-mobile.jpg  600w,
+							./images/image-product-desktop.jpg 900w
+						"
+						sizes="(max-width: 600px) 100vw, 50vw"
 						alt="A square bottle of Gabrielle Chanel perfume is displayed diagonally, framed by green leafy stems on a white background."
 					/>
 				</div>
